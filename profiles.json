@@ -70,6 +70,21 @@
             "backgroundImage": "D:/Apps/WindowsTerminal/cmdbg.png",
             "backgroundImageOpacity": 0.3
         },
+        
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmder",
+            "fontFace": "Cascadia Code PL",
+            "commandline" : "cmd.exe /k \"%D:\\Apps\\laragon\\bin\\cmder\\vendor\\init.bat\"",
+            "hidden": false,
+            "fontFace": "Cascadia Code PL",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.80,
+            "backgroundImage": "D:/Apps/WindowsTerminal/cmderbg.png",
+            "icon": "D:/Apps/WindowsTerminal/cmdericon.png",
+            "backgroundImageOpacity": 0.3
+        },
         {
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "hidden": false,
