@@ -1,0 +1,109 @@
+Windows Registry Editor Version 5.00
+
+; Windows terminal
+
+[HKEY_CLASSES_ROOT\Directory\shell\MenuWindowsTerminal]
+"MUIVerb"="Windows Terminal"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\MenuWindowsTerminal]
+"MUIVerb"="Windows Terminal"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"
+
+[HKEY_CLASSES_ROOT\Directory\LibraryFolder\shell\MenuWindowsTerminal]
+"MUIVerb"="Windows Terminal"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"
+
+[HKEY_CLASSES_ROOT\Drive\shell\MenuWindowsTerminal]
+"MUIVerb"="Windows Terminal"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\MenuWindowsTerminal]
+"MUIVerb"="Windows Terminal"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminal"
+
+; Windows Terminal SUDO
+
+[HKEY_CLASSES_ROOT\Directory\shell\MenuWindowsTerminalSudo]
+"MUIVerb"="Windows Terminal (Admin)"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminalSudo"
+
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\MenuWindowsTerminalSudo]
+"MUIVerb"="Windows Terminal (Admin)"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminalSudo"
+
+[HKEY_CLASSES_ROOT\Directory\LibraryFolder\shell\MenuWindowsTerminalSudo]
+"MUIVerb"="Windows Terminal (Admin)"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminalSudo"
+
+[HKEY_CLASSES_ROOT\Drive\shell\MenuWindowsTerminalSudo]
+"MUIVerb"="Windows Terminal (Admin)"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminalSudo"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\MenuWindowsTerminalSudo]
+"MUIVerb"="Windows Terminal (Admin)"
+"Icon"="C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_0.10.781.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuWindowsTerminalSudo"
+
+; Subcommands
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\CMD]
+"MUIVerb"="CMD"
+"ExtendedSubCommandsKey"=-
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\CMD\command]
+@="D:\\Users\\joach\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe -p \"cmd\" -d ."
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\Powershell]
+"MUIVerb"="Windows PowerShell"
+"ExtendedSubCommandsKey"=-
+"Icon"="imageres.dll,-5372"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\Powershell\command]
+@="D:\\Users\\joach\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe -p \"Windows PowerShell\" -d ."
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\Ubuntu]
+"MUIVerb"="Ubuntu"
+"ExtendedSubCommandsKey"=-
+"Icon"="C:\\Program Files\\WindowsApps\\CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc\\ubuntu.exe"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminal\shell\Ubuntu\command]
+@="D:\\Users\\joach\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe -p \"Ubuntu\" -d ."
+
+; Subcommands Sudo
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\CMD]
+"MUIVerb"="CMD"
+"HasLUAShield"=""
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\CMD]
+@="cmd.exe /s /c pushd \"%V\" & start wt -p \"cmd\" -d ."
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\Powershell]
+"MUIVerb"="Windows PowerShell"
+"HasLUAShield"=""
+"Icon"="imageres.dll,-5373"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\Powershell\command]
+@="cmd.exe /s /c pushd \"%V\" & start wt -p \"Windows PowerShell\" -d ."
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\Ubuntu]
+"MUIVerb"="Ubuntu"
+"HasLUAShield"=""
+"Icon"="C:\\Program Files\\WindowsApps\\CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc\\ubuntu.exe"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuWindowsTerminalSudo\shell\Ubuntu\command]
+@="cmd.exe /s /c pushd \"%V\" & start wt -p \"Ubuntu\" -d ."
