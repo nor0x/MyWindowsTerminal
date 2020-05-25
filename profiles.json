@@ -22,8 +22,8 @@
             "cursorShape":"underscore",
             "useAcrylic": true,
             "acrylicOpacity": 0.80,
-            "backgroundImage": "D:/Apps/WindowsTerminal/psbg.png",
-            "icon": "D:/Apps/WindowsTerminal/wticon.png",
+            "backgroundImage": "D:/WindowsTerminal/psbg.png",
+            "icon": "D:/WindowsTerminal/wticon.png",
             "backgroundImageOpacity": 0.20,
             "tabTitle": "PowerShell"
         },        
@@ -36,11 +36,11 @@
             "fontFace": "Cascadia Code PL",
             "cursorShape":"underscore",
             "useAcrylic": true,
-            "backgroundImage": "D:/Apps/WindowsTerminal/gitbg.png",
+            "backgroundImage": "D:/WindowsTerminal/gitbg.png",
             "backgroundImageOpacity": 0.60,
             "acrylicOpacity": 0.80,
             "tabTitle": "Git Bash",
-            "icon": "D:/Apps/WindowsTerminal/giticon.png"
+            "icon": "D:/WindowsTerminal/giticon.png"
         },
         {
             // Make changes here to the powershell.exe profile
@@ -51,11 +51,11 @@
             "fontFace": "Cascadia Code PL",
             "cursorShape":"underscore",
             "useAcrylic": true,
-            "backgroundImage": "D:/Apps/WindowsTerminal/bashbg.png",
+            "backgroundImage": "D:/WindowsTerminal/bashbg.png",
             "backgroundImageOpacity": 0.30,
             "acrylicOpacity": 0.80,
             "tabTitle": "Bash",
-            "icon": "D:/Apps/WindowsTerminal/bashicon.png"
+            "icon": "D:/WindowsTerminal/bashicon.png"
         },
         {
             // Make changes here to the cmd.exe profile
@@ -67,7 +67,7 @@
             "fontFace": "Cascadia Code PL",
             "useAcrylic": true,
             "acrylicOpacity": 0.80,
-            "backgroundImage": "D:/Apps/WindowsTerminal/cmdbg.png",
+            "backgroundImage": "D:/WindowsTerminal/cmdbg.png",
             "backgroundImageOpacity": 0.3
         },
         
@@ -81,8 +81,8 @@
             "fontFace": "Cascadia Code PL",
             "useAcrylic": true,
             "acrylicOpacity": 0.80,
-            "backgroundImage": "D:/Apps/WindowsTerminal/cmderbg.png",
-            "icon": "D:/Apps/WindowsTerminal/cmdericon.png",
+            "backgroundImage": "D:/WindowsTerminal/cmderbg.png",
+            "icon": "D:/WindowsTerminal/cmdericon.png",
             "backgroundImageOpacity": 0.3
         },
         {
@@ -94,7 +94,7 @@
             "useAcrylic": true,
             "colorScheme": "UbuntuLegit",
             "acrylicOpacity": 0.80,
-            "backgroundImage": "D:/Apps/WindowsTerminal/ubuntubg.png",
+            "backgroundImage": "D:/WindowsTerminal/ubuntubg.png",
             "backgroundImageOpacity": 0.30
         },
         {
@@ -104,7 +104,7 @@
             "fontFace": "Cascadia Code PL",
             "source": "Windows.Terminal.PowershellCore",
             "acrylicOpacity": 0.80,
-            "backgroundImage": "D:/Apps/WindowsTerminal/pscorebg.png",
+            "backgroundImage": "D:/WindowsTerminal/pscorebg.png",
             "backgroundImageOpacity": 0.20,
             "useAcrylic": true,
             "colorScheme": "pscore"
@@ -127,12 +127,12 @@
             "commandline": "powershell.exe",
             "fontFace": "Cascadia Code PL",
             "acrylicOpacity": 1.0,
-            "backgroundImage": "D:/Apps/WindowsTerminal/playgroundicon.gif",
+            "backgroundImage": "D:/WindowsTerminal/playgroundicon.gif",
             "backgroundImageAlignment": "bottomRight",
             "cursorColor": "#00b7ff",
             "cursorShape": "vintage",
             "backgroundImageStretchMode": "uniform",
-            "icon": "D:/Apps/WindowsTerminal/playgroundicon.gif",
+            "icon": "D:/WindowsTerminal/playgroundicon.gif",
             "backgroundImageOpacity": 1.0,
             "useAcrylic": false,
             "colorScheme": "playground",
