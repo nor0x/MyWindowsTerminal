@@ -2,7 +2,7 @@
 
 Import-Module -Name Terminal-Icons
 
-oh-my-posh --init --shell pwsh --config D:\WindowsTerminal\ohmyposh.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config C:\Users\Johnny\Dev\MyWindowsTerminal\ohmyposh.json | Invoke-Expression
 
 #you have to put this in $profile or $profile.currentuserallhosts
 $esc = [char]27
