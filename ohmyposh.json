@@ -202,11 +202,19 @@
           "type": "executiontime"
         },
         {
+          "type": "dotnet",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#512bd3",
+          "template": " \ue77f {{ .Full }} "
+        },
+        {
           "background": "#1982C4",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "always_enabled": true,
+            "always_enabled": false,
             "display_exit_code": false,
             "error_color": "#f1184c"
           },
