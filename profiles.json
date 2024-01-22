@@ -89,6 +89,25 @@
                 "tabTitle": ">_ pwsh",
                 "useAcrylic": true
             },
+            
+            {
+                "backgroundImage": "C:/Users/Johnny/Dev/MyWindowsTerminal/csbg.png",
+                "backgroundImageOpacity": 0.2,
+                "colorScheme": "Dracula",
+                "commandline": "csharprepl",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "font": {
+                    "face": "MonaspiceRn Nerd Font"
+                },
+                "guid": "{e3798b65-c027-4a52-ab53-4ee2579fa41b}",
+                "hidden": false,
+                "icon": "C:/Users/Johnny/Dev/MyWindowsTerminal/csicon.png",
+                "name": "C# REPL",
+                "opacity": 80,
+                "tabTitle": "C# REPL",
+                "useAcrylic": true
+            },
             {
                 "backgroundImage": "C:/Users/Johnny/Dev/MyWindowsTerminal/ubuntubg.png",
                 "backgroundImageOpacity": 0.5,
