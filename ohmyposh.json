@@ -255,7 +255,13 @@
           "background_templates": [
             "{{if contains \"default\" .Profile}}#FFA400{{end}}",
             "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
-          ],
+          ]
+        },
+        {
+          "template": "\ue0c2\ue0ce",
+          "foreground": "#FFA500",
+          "type": "text",
+          "style": "plain",
           "trailing_diamond": "\ue0b4"
         }
       ]
