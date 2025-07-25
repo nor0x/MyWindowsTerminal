@@ -118,6 +118,25 @@
         {
           "properties": {
             "cache_duration": "none",
+            "fetch_version": true,
+            "display_mode": "files"
+          },
+          "template": " \ue77f {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "background": "#512BD4",
+          "type": "dotnet",
+          "style": "powerline",
+          "include": [
+            "*.csproj",
+            "*.sln",
+            "*.cs",
+            "global.json"
+          ]
+        },
+        {
+          "properties": {
+            "cache_duration": "none",
             "fetch_version": true
           },
           "template": " \uf898 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
@@ -125,7 +144,12 @@
           "powerline_symbol": "\ue0b0",
           "background": "#6CA35E",
           "type": "node",
-          "style": "powerline"
+          "style": "powerline",
+          "include": [
+            "package.json",
+            "*.js",
+            "*.ts"
+          ]
         },
         {
           "properties": {
