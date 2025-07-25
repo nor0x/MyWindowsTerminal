@@ -41,9 +41,36 @@
           },
           "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }} ",
           "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
           "background": "#FF595E",
           "type": "session",
-          "style": "diamond"
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none"
+          },
+          "template": " \udb81\udd1f {{ .FormattedMs }} ",
+          "foreground": "#193549",
+          "powerline_symbol": "\ue0b0",
+          "background": "#8AC926",
+          "type": "executiontime",
+          "style": "powerline"
+        },
+        {
+          "properties": {
+            "always_enabled": true,
+            "cache_duration": "none",
+            "display_exit_code": false,
+            "error_color": "#f1184c"
+          },
+          "template": " \uf489 {{ .Name }}",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "background": "#1982C4",
+          "type": "shell",
+          "style": "powerline"
         },
         {
           "properties": {
@@ -228,33 +255,8 @@
           "background_templates": [
             "{{if contains \"default\" .Profile}}#FFA400{{end}}",
             "{{if contains \"jan\" .Profile}}#f1184c{{end}}"
-          ]
-        },
-        {
-          "properties": {
-            "always_enabled": true,
-            "cache_duration": "none"
-          },
-          "template": "<transparent>\ue0b0</> \udb81\udd1f {{ .FormattedMs }}\u2800",
-          "foreground": "#193549",
-          "background": "#8AC926",
-          "type": "executiontime",
-          "style": "plain"
-        },
-        {
-          "properties": {
-            "always_enabled": true,
-            "cache_duration": "none",
-            "display_exit_code": false,
-            "error_color": "#f1184c"
-          },
-          "trailing_diamond": "\ue0b4",
-          "template": " \uf489 {{ .Name }}",
-          "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
-          "background": "#1982C4",
-          "type": "shell",
-          "style": "diamond"
+          ],
+          "trailing_diamond": "\ue0b4"
         }
       ]
     },
